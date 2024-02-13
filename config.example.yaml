@@ -27,4 +27,10 @@ user:
   host:
 
 yxy:
-  host: 
+  host:
+
+log:
+  level: "debug" #level有四个等级，主要使用debug和info
+  name: "wejh"
+  rotationTime: 1 #分割周期
+  maxAge: 14 #存活周期
